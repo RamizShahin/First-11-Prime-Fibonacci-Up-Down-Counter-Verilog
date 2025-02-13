@@ -1,0 +1,15 @@
+237
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "../src/TFlipFlop.v" 1 TFlipFlop
+~A 1 "../src/TFlipFlop.v" 1 TFlipFlop
+~M 1 "../src/counter.v" 1 counter
+~A 1 "../src/counter.v" 1 counter
+~M 3 "../src/counter.v" 19 counter_tb
+~A 1 "../src/counter.v" 19 counter_tb
+~M 3 "../src/full_design.v" 19 proj_tb
+~A 1 "../src/full_design.v" 19 proj_tb
+~M 1 "../src/full_design.v" 1 project
+~A 1 "../src/full_design.v" 1 project
+~M 1 "../src/tff.v" 1 tff
+~A 1 "../src/tff.v" 1 tff

@@ -1,0 +1,110 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=1201661_AD_project
+[Library]
+1201661_AD_project=.\1201661_AD_project\1201661_AD_project.lib
+[$LibMap$]
+1201661_AD_project=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+NoTimingChecks=0
+NoTchkMsg=0
+EnableXtrace=0
+ENABLE_ADV_DATAFLOW=0
+SplitNetVectors=0
+RetvalMemorySize=32
+StackMemorySize=32
+resolution=Auto
+VsimAdditionalOptions=
+WireDelay=2
+AccessACCB=1
+AccessACCR=1
+AccessReadTopLevel=1
+AccessRead=1
+AccessReadWrite=1
+AccessReadWriteSLP=1
+SimulationAccessReadPaths=
+SimulationAccessReadModules=
+SimulationAccessReadWritePaths=
+SimulationAccessReadWriteModules=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+ReportAssertionsActivations=0
+TrackAssertionFailures=1
+AssertionFailureLimit=0
+AssertionFailureAction=Continue
+TrackAssertionPasses=1
+AssertionPassLimit=0
+ReportUnfinishedAssertions=1
+ReportAssertionDisabledEvaluationsOption=0
+TrackCoverMatches=1
+CoverAction=Continue
+ReportDroppedCoverEvaluations=0
+ReportActivatedCoverEvaluations=0
+ReportCoverDisabledEvaluationsOption=0
+EnableFullDebugMode=0
+EnableSSEvent=0
+FullDebugModeSignalsFile=1201661_AD_project.psl
+NoWarningsSDF=0
+ChangeSDFErrorToWarning=0
+EnableSDFErrorLimit=0
+SDFErrorLimit=0
+[Files]
+/tff.v=-1
+/counter.v=-1
+/full_design.v=-1
+/..\..\..\..\Verilogdesigns\AD_project\1201661_AD_project\src\test.asdb=-1
+/..\..\..\..\Verilogdesigns\AD_project\1201661_AD_project\src\test.awc=-1
+/..\..\..\..\Verilogdesigns\AD_project\1201661_AD_project\src\results.asdb=-1
+/..\..\..\..\Verilogdesigns\AD_project\1201661_AD_project\src\results.awc=-1
+[Files.Data]
+.\src\tff.v=Verilog Source Code
+.\src\counter.v=Verilog Source Code
+.\src\full_design.v=Verilog Source Code
+.\..\..\..\Verilogdesigns\AD_project\1201661_AD_project\src\test.asdb=Accelerated Waveform File
+.\..\..\..\Verilogdesigns\AD_project\1201661_AD_project\src\test.awc=Accelerated Waveform Configuration
+.\..\..\..\Verilogdesigns\AD_project\1201661_AD_project\src\results.asdb=Accelerated Waveform File
+.\..\..\..\Verilogdesigns\AD_project\1201661_AD_project\src\results.awc=Accelerated Waveform Configuration
+[LocalVerilogSets]
+MonitoringOfEventsUDP=0
+DisablePulseError=0
+PulseErrorFilter=0
+ErrorLimit=100
+RejectionLimit=100
+SetErrorLimit=0
+SetRejectionLimit=0
+InitialRegsValue=X
+HasInitialRegsValue=0
+EnableSLP=1
+LibNames=
+PriorityLibNames=
+[AssertionSettings]
+ReportAssertionsFailures=auto
+ReportAssertionPasses=off
+[CoverSettings]
+ReportCoverMatches=off
+[ExternalSimulatorSettings]
+ExternalSimulator=RivieraProGui
+MacroBehavior=Generate
+EnableCustomLibraryCfg=0
+CustomLibraryCfg=
+EnableSimulation=1
+EnableSignalsLogging=1
+RunCommandParameters=-all
+LogCommandParameters=-rec *
+CustomScript=
+[Generics]
+Count=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
